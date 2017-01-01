@@ -29,17 +29,6 @@
             </header>
             <section id="main">
                 <p align="right" style="font-size:80%;color:#CCCCCC;"><br></p>
-                <h1>My works</h1>
-                <hr>
-                
-                <h2>2016</h2>
-                <p>
-                <ul>
-                    <li>Co-developer of <a href="http://fml166.kz">Physics and mathematics lyceum #166</a> web-site</li> 
-                </ul>
-                </p>
-                
-                
                 
                 <p>I'm a software developer, gamemaker, web-developer, enterpreneur, creator of most telegram-bots and just a good man :)<br>
                 Now I study and work at <a href="http://fml166.kz">Physics and mathematics lyceum #166</a> in Almaty, Kazakhstan</p>
