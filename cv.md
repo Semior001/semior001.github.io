@@ -1,6 +1,6 @@
 # Yelshat Duskaliyev
 
-| Contact information | ![](https://semior001.github.io/img/me_2.png)                                                              |
+| Contact information | ![](https://semior001.github.io/img/me_2.png)                                  |
 |---------------------|--------------------------------------------------------------------------------|
 | Email               | [ura2178@gmail.com](email:ura2178@gmail.com)                                   |
 | Mobile phone        | +77022065472 (kz), +79656022297 (ru)                                           |
@@ -46,10 +46,14 @@
     visualize the fancy graphs and control all negative feedbacks to be processed.
 
 ## Education
-| Period       | Institution name                                            | Speciality                    |
-|--------------|-------------------------------------------------------------|-------------------------------|
-| 2019-present | [Innopolis University](https://university.innopolis.ru)     | B.Sc in Computer Science      |
-| 2018-2019    | [Kazakh-British Technical University](https://www.kbtu.kz/) | B.Sc in Informational Systems |
+- **[Innopolis University](https://university.innopolis.ru)** <br>
+    2019-present <br>
+    B.Sc in Computer Science
+
+- **[Kazakh-British Technical University](https://www.kbtu.kz/)** <br>
+    2018-2019 <br>
+    B.Sc in Informational Systems
+
 
 ## Languages
 English (​intermediate, IELTS overall 6.0​), Russian (native)
