@@ -1,3 +1,6 @@
+---
+layout: default
+---
 # Yelshat Duskaliyev
 ## Contact information
 | Email        | [ura2178@gmail.com](email:ura2178@gmail.com)                                   |
