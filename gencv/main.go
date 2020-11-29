@@ -75,8 +75,7 @@ func main() {
 	}
 
 	if err = ioutil.WriteFile(path.Join(o.OutputLocation, "cv.html"), []byte(out), 0644); err != nil {
-		fmt.Printf("failed to write the rendered html to location %s: %v", path.Join(o.OutputLocation, "cv.html"), err)
-		return
+		log.Fatalf("failed to write the rendered html to location %s: %v", path.Join(o.OutputLocation, "cv.html"), err)
 	}
 
 }
