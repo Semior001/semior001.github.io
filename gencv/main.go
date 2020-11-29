@@ -11,6 +11,7 @@ import (
 	"strings"
 	"text/template"
 
+	html2pdf "github.com/SebastiaanKlippert/go-wkhtmltopdf"
 	"github.com/gomarkdown/markdown"
 	"github.com/gomarkdown/markdown/html"
 	"github.com/gomarkdown/markdown/parser"
@@ -29,22 +30,44 @@ func main() {
 	o := opts{}
 	if _, err := flags.Parse(&o); err != nil {
 		os.Exit(1)
-		return
 	}
 
 	// reading and parsing source file
 	var f *os.File
 	var err error
 	if f, err = os.Open(o.MDLocation); err != nil {
-		fmt.Printf("failed to open markdown source file at location %s: %v", o.MDLocation, err)
-		return
+		log.Fatalf("failed to open markdown source file at location %s: %v", o.MDLocation, err)
 	}
 	cv := parseMDFile(f)
 	if err = f.Close(); err != nil {
-		fmt.Printf("failed to close markdown source file at location %s: %v", o.MDLocation, err)
-		return
+		log.Fatalf("failed to close markdown source file at location %s: %v", o.MDLocation, err)
 	}
 	out := renderHtml(o.TemplateLocation, cv)
+
+	// generating pdf
+	pdfg, err := html2pdf.NewPDFGenerator()
+	if err != nil {
+		log.Fatalf("failed to instantiate pdf generator: %v", err)
+	}
+
+	pdfg.Dpi.Set(400)
+	pdfg.Orientation.Set(html2pdf.OrientationPortrait)
+	pdfg.Grayscale.Set(false)
+	pdfg.PageSize.Set(html2pdf.PageSizeA4)
+
+	page := html2pdf.NewPageReader(bytes.NewReader([]byte(out)))
+
+	page.Zoom.Set(1.3)
+
+	pdfg.AddPage(page)
+
+	if err = pdfg.Create(); err != nil {
+		log.Fatalf("failed to create pdf: %v", err)
+	}
+
+	if err = pdfg.WriteFile(path.Join(o.OutputLocation, "cv.pdf")); err != nil {
+		log.Fatalf("failed to write pdf to file at location %s: %v", path.Join(o.OutputLocation, "cv.pdf"), err)
+	}
 
 	// render html if needed
 	if !o.RenderHTML {
@@ -96,27 +119,23 @@ func renderHtml(tmplLoc string, cv cv) string {
 
 	// loading template
 	if f, err = os.Open(tmplLoc); err != nil {
-		log.Panicf("failed to open template file at location %s: %v", tmplLoc, err)
-		return ""
+		log.Fatalf("failed to open template file at location %s: %v", tmplLoc, err)
 	}
 
 	b, err := ioutil.ReadAll(f)
 	if err != nil {
-		log.Panicf("failed to read template file at location %s: %v", tmplLoc, err)
-		return ""
+		log.Fatalf("failed to read template file at location %s: %v", tmplLoc, err)
 	}
 
 	tmpl, err := template.New("tmpl").Parse(string(b))
 	if err != nil {
-		log.Panicf("failed to parse template file at location %s: %v", tmplLoc, err)
-		return ""
+		log.Fatalf("failed to parse template file at location %s: %v", tmplLoc, err)
 	}
 
 	out := &bytes.Buffer{}
 
 	if err = tmpl.Execute(out, tmplBody); err != nil {
-		log.Panicf("failed to execute template: %v", err)
-		return ""
+		log.Fatalf("failed to execute template: %v", err)
 	}
 	return out.String()
 }

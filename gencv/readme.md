@@ -1,5 +1,9 @@
 # Gencv
 
+# Requirements:
+- wkhtmltopdf cli tool
+
+# Overview
 Generates PDF with your CV, parsed from the source markdown file
 
 The source markdown file should contain 4 parts, divided with the line, containing `---`:
@@ -22,7 +26,7 @@ Example:
 - **Email** - [ura2178@gmail.com](mailto:ura2178@gmail.com)                                   
 - **Mobile phone** - +77022065472 (kz), +79656022297 (ru)                                           
 - **Hometown** - Almaty, Kazakhstan                                                             
-- **Website** - [https://semior001.github.io](https://semior001.github.io)                     
+- **Website** - [https://semior001.github.io](https://swemior001.github.io)                     
 - **Github** - [Semior001](https://github.com/semior001)                                      
 - **LinkedIn** - [Yelshat Duskaliyev](https://www.linkedin.com/in/yelshat-duskaliev-181813139/) 
 - **Telegram** - [Semior001](https://t.me/semior001)                                            
@@ -38,7 +42,7 @@ Example:
 
 ```
 
-This tool will build a pdf with your like that:
+This tool will build a pdf with your cv like this one:
 ![](out.png)
 
 Also it may build an html page, if the `-h` flag specified.

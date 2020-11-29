@@ -1,3 +1,6 @@
+# github.com/SebastiaanKlippert/go-wkhtmltopdf v1.6.1
+## explicit
+github.com/SebastiaanKlippert/go-wkhtmltopdf
 # github.com/gomarkdown/markdown v0.0.0-20201113031856-722100d81a8e
 ## explicit
 github.com/gomarkdown/markdown
