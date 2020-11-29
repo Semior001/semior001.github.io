@@ -1,14 +1,21 @@
 # Yelshat Duskaliyev
 
-| Contact information | ![](https://semior001.github.io/img/me_2.png)                                  |
-|---------------------|--------------------------------------------------------------------------------|
-| Email               | [ura2178@gmail.com](email:ura2178@gmail.com)                                   |
-| Mobile phone        | +77022065472 (kz), +79656022297 (ru)                                           |
-| Hometown            | Almaty, Kazakhstan                                                             |
-| Website             | [https://semior001.github.io](https://semior001.github.io)                     |
-| Github              | [Semior001](https://github.com/semior001)                                      |
-| LinkedIn            | [Yelshat Duskaliyev](https://www.linkedin.com/in/yelshat-duskaliev-181813139/) |
-| Telegram            | [Semior001](https://t.me/semior001)                                            |
+---
+
+![avatar](https://semior001.github.com/img/me_2.png)
+
+---
+
+## Contact information
+- **Email** - [ura2178@gmail.com](mailto:ura2178@gmail.com)                                   
+- **Mobile phone** - +77022065472 (kz), +79656022297 (ru)                                           
+- **Hometown** - Almaty, Kazakhstan                                                             
+- **Website** - [https://semior001.github.io](https://semior001.github.io)                     
+- **Github** - [Semior001](https://github.com/semior001)                                      
+- **LinkedIn** - [Yelshat Duskaliyev](https://www.linkedin.com/in/yelshat-duskaliev-181813139/) 
+- **Telegram** - [Semior001](https://t.me/semior001)                                            
+
+---
 
 ## Professional Experience
 - **Junior developer** <br>
@@ -18,6 +25,11 @@
     > Worked as a full-stack developer, developed and supported several projects for internal usage.
 
 ## Projects
+- **Dvizz** <br>
+    Go developer <br>
+    07/2020 - 11/2020 <br>
+    > Worked on the support of existing services, implementation of database integration, concurrent service workers, and on the implementation of custom NATS-RPC methods.
+
 - **Eurobot** <br>
     DevOps engineer <br>
     10/2019 - present <br>
@@ -34,12 +46,12 @@
     01/2019 <br>
     > Java-written telegram bot that processed some internal data from 1C database (through the SOAP protocol) to employees.
 
-- **Android application + python service for validating the KaspiBank orders for Technodom Operator JSC** <br>
+- **Android application + python service for validating the Kaspi Bank orders for Technodom Operator JSC** <br>
     Android + python developer <br>
     12/2018 <br>
     > Android application for couriers to validate the order from the KaspiBank online store and the flask microservice to process the validation requests from the mobile app.
 
-- **Feedback Collector Android application + Website for analyticsfor Technodom Operator JSC** <br>
+- **Feedback Collector Android application + Website for analytics for Technodom Operator JSC** <br>
     Android developer, Backend Web-developer <br>
     07/2018 - 08/2018 <br>
     > The android application to collect the feedback from the customers, and the laravel-based website to process the aggregated data, 
@@ -56,7 +68,7 @@
 
 
 ## Languages
-English (​intermediate, IELTS overall 6.0​), Russian (native)
+English (Upper-intermediate, IELTS overall 6.0), Russian (native)
 
 ## About me
 High result achiever. I’m interested in new technologies. I like to read professional literature. I’ve participated in a lot of programming competitions. 

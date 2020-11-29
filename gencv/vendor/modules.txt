@@ -1,0 +1,9 @@
+# github.com/gomarkdown/markdown v0.0.0-20201113031856-722100d81a8e
+## explicit
+github.com/gomarkdown/markdown
+github.com/gomarkdown/markdown/ast
+github.com/gomarkdown/markdown/html
+github.com/gomarkdown/markdown/parser
+# github.com/jessevdk/go-flags v1.4.0
+## explicit
+github.com/jessevdk/go-flags
