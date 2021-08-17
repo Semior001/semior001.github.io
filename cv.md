@@ -2,7 +2,7 @@
 
 ---
 
-![avatar](https://semior001.github.com/img/me_2.png)
+![avatar](https://semior001.github.io/img/me_2.png)
 
 ---
 
@@ -24,6 +24,13 @@
     Almaty, Kazakhstan
 
     > Worked as a full-stack developer, developed and supported several projects for internal usage.
+
+- **Go developer** <br>
+	Marketplace Technologies • Full time <br>
+    02/2021 - present <br>
+    Russia, Innopolis
+
+    > Backend developer of internal ERP project.
 
 ## Projects
 - **[Dvizz](http://dvizz.io/)** • Go developer <br>

@@ -18,7 +18,7 @@ Example:
 
 ---
 
-![avatar](https://semior001.github.com/img/me_2.png)
+![avatar](https://semior001.github.io/img/me_2.png)
 
 ---
 
