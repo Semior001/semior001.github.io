@@ -1,6 +1,8 @@
 ---
-layout: blog
+layout: default
 ---
+
+# Some developer's blog
 
 <ul>
   {% for post in site.posts %}
