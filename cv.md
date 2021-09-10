@@ -2,7 +2,7 @@
 
 ---
 
-![avatar](https://semior001.github.io/img/me_2.png)
+![avatar](https://semior.dev/img/me_2.png)
 
 ---
 
@@ -10,7 +10,7 @@
 - **Email** - [ura2178@gmail.com](mailto:ura2178@gmail.com)                                   
 - **Mobile phone** - +77022065472 (kz), +79656022297 (ru)                                           
 - **Hometown** - Almaty, Kazakhstan                                                             
-- **Website** - [https://semior001.github.io](https://semior001.github.io)                     
+- **Website** - [semior.dev](https://semior.dev)                     
 - **Github** - [Semior001](https://github.com/semior001)                                      
 - **LinkedIn** - [Yelshat Duskaliyev](https://www.linkedin.com/in/yelshat-duskaliev-181813139/) 
 - **Telegram** - [Semior001](https://t.me/semior001)                                            
