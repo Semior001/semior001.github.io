@@ -27,8 +27,8 @@ jobs:
         with:
           push: true
           context: .
-          tags: ghcr.io/semior001/blog:latest,ghcr.io/semior001/blog:${{github.sha}}
+          tags: ghcr.io/semior001/semior001.github.io:latest,ghcr.io/semior001/semior001.github.io:${{github.sha}}
       
       - name: curl updater
         run:
-          curl https://upd.semior.dev/update/blog/${{secrets.UPDATER_TOKEN}}
+          curl https://upd.semior.dev/update/cv/${{secrets.UPDATER_TOKEN}}
