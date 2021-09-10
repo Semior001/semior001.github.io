@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode | default "en-us" }}">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Yelshat Duskaliyev</title>
+    <link rel="stylesheet" href="/style.css">
+    <!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1><a href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a></h1>
+
+        <p>{{ .Site.Params.description }}</p>
+
+        {{- with .Site.Menus.main }}
+        {{ range . }}
+        <p class="view"><a href="{{.URL}}">{{ .Name }}</a></p>
+        {{ end }}
+        {{- end }}
+
+        <h3>On the web</h3>
+        {{- with .Site.Menus.web }}
+        {{ range . }}
+        <p class="view"><a href="{{.URL}}">{{ .Name }}</a></p>
+        {{ end }}
+        {{- end }}
+
+        <h3>In competitive programming</h3>
+        {{- with .Site.Menus.competitive }}
+        {{ range . }}
+        <p class="view"><a href="{{.URL}}">{{ .Name }}</a></p>
+        {{ end }}
+        {{- end }}
+
+        <h3>My mail</h3>
+        <p class="view"><a href="mail:{{ .Site.Params.Mail }}">{{ .Site.Params.Mail }}</a></p>
+      </header>
+      <section>
+
+        {{ block "main" . }}
+          {{ .Content }}
+        {{ end }}
+
+        <p>{{ .Site.Params.Footer | safeHTML }}</p>
+
+      </section>
+    </div>
+  </body>
+</html>

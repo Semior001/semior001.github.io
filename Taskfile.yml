@@ -1,0 +1,22 @@
+version: '3'
+
+tasks:
+  serve:
+    cmds:
+      - hugo server --enableGitInfo --buildDrafts --buildExpired --buildFuture -p 1313
+    desc: Run a development hugo server.
+
+  build:
+    cmds:
+      - hugo --minify
+    desc: Build the site to the 'public' directory
+  
+  gencv:
+    cmds:
+      - go run main.go
+    dir: ./gencv
+    desc: Generate CV from cv.md
+    env:
+      MDLOCATION: ../cv.md
+      OUTPUT_PDF_LOCATION: ../static/cv.pdf
+      TEMPLATE_LOCATION: tmpl.html

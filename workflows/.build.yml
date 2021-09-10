@@ -1,0 +1,34 @@
+name: Build
+
+on:
+  push:
+    branches: [ master ]
+
+jobs:
+  build-and-push:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          submodules: 'recursive'
+
+      - name: login to ghcr
+        id: docker_login
+        uses: docker/login-action@v1
+        with:
+          registry: ghcr.io
+          username: ${{ github.actor }}
+          password: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: build and push hugo site
+        id: docker_build
+        uses: docker/build-push-action@v2
+        with:
+          push: true
+          context: .
+          tags: ghcr.io/semior001/blog:latest,ghcr.io/semior001/blog:${{github.sha}}
+      
+      - name: curl updater
+        run:
+          curl https://upd.semior.dev/update/blog/${{secrets.UPDATER_TOKEN}}

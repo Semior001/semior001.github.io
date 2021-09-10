@@ -1,0 +1,60 @@
+baseURL: "https://semior.dev/"
+title: Yelshat Duskaliyev
+
+params:
+  author: Yelshat Duskaliyev
+  description: |
+    "Evolution forged the entirety of sentient life on this planet using only one tool… The mistake.” - Dr. Robert Ford, Westworld, Season 1
+  footer: |
+    I'm a software, mobile, and web-developer and just a good man :)<br>
+    Now I study at <a href="https://university.innopolis.ru">Innopolis University</a> for Bachelor's degree of Computer Science
+  mail: ura2178@gmail.com
+
+menu:
+  main:
+    - identifier: "projects"
+      name: "My works"
+      url: "/projects"
+      weight: 10
+    - identifier: "sdb"
+      name: "Some developer's blog"
+      url: "https://blog.semior.dev"
+      weight: 20
+    - identifier: "cvpdf"
+      name: "My CV"
+      url: "/cv.pdf"
+      weight: 30
+  web:
+    - identifier: "vk"
+      name: "VK"
+      url: "http://vk.com/semior001"
+      weight: 10
+    - identifier: "gh"
+      name: "Github"
+      url: "http://github.com/semior001"
+      weight: 20
+    - identifier: "linkedin"
+      name: "LinkedIn"
+      url: "https://www.linkedin.com/in/yelshat-duskaliev-181813139/"
+      weight: 30
+    - identifier: "hh"
+      name: "HeadHunter"
+      url: "https://hh.kz/applicant/resumes/view?resume=03f4d0a0ff038da4f60039ed1f504e68766e4f"
+      weight: 40
+  competitive:
+    - identifier: "cf"
+      name: "Codeforces"
+      url: "http://codeforces.com/profile/semior001"
+      weight: 10
+    - identifier: "mccme"
+      name: "Informatics.MCCME"
+      url: "http://informatics.mccme.ru/user/view.php?id=190610"
+      weight: 20
+    - identifier: "hackerrank"
+      name: "Hackerrank"
+      url: "http://hackerrank.com/semior001"
+      weight: 30
+    - identifier: "acmp"
+      name: "ACMP"
+      url: "http://acmp.ru/index.asp?main=user&id=162279"
+      weight: 40
