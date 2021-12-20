@@ -18,19 +18,26 @@
 ---
 
 ## Professional Experience
+- **Go developer** <br>
+    ITKey • Full time <br>
+    09/2021 - present <br>
+    Russia, Innopolis
+
+    > Backend developer of cloud projects.
+
+- **Go developer** <br>
+	Marketplace Technologies • Full time <br>
+    02/2021 - 09/2021 <br>
+    Russia, Innopolis
+
+    > Backend developer of internal ERP project.
+
 - **Junior developer** <br>
     Technodom Operator JSC • Full time <br>
     09/2018 - 07/2019 <br>
     Almaty, Kazakhstan
 
     > Worked as a full-stack developer, developed and supported several projects for internal usage.
-
-- **Go developer** <br>
-	Marketplace Technologies • Full time <br>
-    02/2021 - present <br>
-    Russia, Innopolis
-
-    > Backend developer of internal ERP project.
 
 ## Projects
 - **[Dvizz](http://dvizz.io/)** • Go developer <br>
