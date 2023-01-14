@@ -19,7 +19,7 @@
 
         {{- with .Site.Menus.main }}
         {{ range . }}
-        <p class="view"><a href="{{.URL | absLangURL}}">{{ .Name }}</a></p>
+        <p class="view"><a href="{{.URL }}">{{ .Name }}</a></p>
         {{ end }}
         {{- end }}
 

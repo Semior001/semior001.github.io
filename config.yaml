@@ -12,10 +12,6 @@ params:
 
 menu:
   main:
-    - identifier: "projects"
-      name: "My works"
-      url: "/projects"
-      weight: 10
     - identifier: "sdb"
       name: "Some developer's blog"
       url: "https://blog.semior.dev"
