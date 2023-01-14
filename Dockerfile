@@ -21,6 +21,6 @@ RUN rm -fr * .??*
 COPY _docker/ /etc/nginx/conf.d/
 
 RUN chmod 0644 /etc/nginx/conf.d/expires.inc
-RUN chmod 0644 /etc/nginx/conf.d/default.inc
+RUN chmod 0644 /etc/nginx/conf.d/default.conf
 
 COPY --from=build /site/public /usr/share/nginx/html
