@@ -40,31 +40,25 @@
     > Worked as a full-stack developer, developed and supported several projects for internal usage.
 
 ## Projects
+- **HR-Bot scheduling service** • Go developer <br>
+    06/2020 - 06/2022
+    
+    > Worked on an integration with calendar services, and everything related to calendars (e.g. building an algorithm and API interface to find available 
+    time slots in a specified user calendar). IMAP, SMTP, iCal, and other fancy stuff.
+    <br>
+    Project was converted into the [trn](https://github.com/cappuccinotm/trn) - library for dealing with time intervals.
+
 - **[Dvizz](http://dvizz.io/)** • Go developer <br>
     07/2020 - 11/2020
 
     > Worked on the support of existing services, implementation of database integration, concurrent service workers, and on the implementation of custom NATS-RPC methods.
 
+<br>
+
 - **Eurobot** • DevOps engineer <br>
-    10/2019 - present
+    10/2019 - 05/2021
 
     > Worked on the setup of a development environment, CI-CD automation, also developing the library for automatic simulation testing in ROS+Gazebo combination.
-
-- **HR-Bot scheduling service** • Go developer <br>
-    06/2020 - present
-
-    > Worked on an integration with calendar services, and everything related to calendars (e.g. building an algorithm and API interface to find available 
-    time slots in a specified user calendar). IMAP, SMTP, iCal, and other fancy stuff.
-
-- **Telegram Bot for internal usage for Technodom Operator JSC** • Java developer <br>
-    01/2019
-
-    > Java-written telegram bot that processed some internal data from 1C database (through the SOAP protocol) to employees.
-
-- **Android application + python service for validating the Kaspi Bank orders for Technodom Operator JSC** • Android + python developer <br>
-    12/2018
-
-    > Android application for couriers to validate the order from the KaspiBank online store and the flask microservice to process the validation requests from the mobile app.
 
 - **Feedback Collector Android application + Website for analytics for Technodom Operator JSC** • Android developer, Backend Web-developer <br>
     07/2018 - 08/2018

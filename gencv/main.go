@@ -119,7 +119,7 @@ func NewTemplater(tmplLoc string) (*Templater, error) {
 
 	// making renderers and generators
 	if res.pdfg, err = html2pdf.NewPDFGenerator(); err != nil {
-		return nil, fmt.Errorf("make pdf generator")
+		return nil, fmt.Errorf("make pdf generator: %w", err)
 	}
 
 	res.renderer = html.NewRenderer(html.RendererOptions{})
@@ -189,13 +189,13 @@ func parseMDFile(rd io.Reader) (cv cv) {
 		}
 
 		switch state {
-		case 0:
+		case head:
 			cv.header += line
-		case 1:
+		case avatar:
 			cv.avatar += line + "\n"
-		case 2:
+		case contacts:
 			cv.contacts += line + "\n"
-		case 3:
+		case body:
 			cv.body += line + "\n"
 		}
 	}
