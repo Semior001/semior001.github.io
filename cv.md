@@ -12,7 +12,7 @@
 - **Website** - [semior.dev](https://semior.dev)
 - **Github** - [Semior001](https://github.com/semior001)
 - **LinkedIn** - [Yelshat Duskaliyev](https://www.linkedin.com/in/yelshat-duskaliev-181813139/)
-- **Telegram** - [Semior001](https://t.me/semior001)
+- **Telegram** - [semior077](https://t.me/semior077)
 
 ---
 
