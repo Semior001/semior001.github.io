@@ -23,7 +23,7 @@ Example:
 ---
 
 ## Contact information
-- **Email** - [ura2178@gmail.com](mailto:ura2178@gmail.com)                                   
+- **Email** - [yduskaliyev@semior.dev](mailto:yduskaliyev@semior.dev)                                   
 - **Mobile phone** - +77022065472 (kz), +79656022297 (ru)                                           
 - **Hometown** - Almaty, Kazakhstan                                                             
 - **Website** - [https://semior001.github.io](https://swemior001.github.io)                     

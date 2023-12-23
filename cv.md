@@ -8,7 +8,7 @@
 
 ## Contact information
 - **Hometown** - Almaty, Kazakhstan <br> <!-- itaksoidet -->
-- **Email** - [ura2178@gmail.com](mailto:ura2178@gmail.com)
+- **Email** - [yduskaliyev@semior.dev](mailto:yduskaliyev@semior.dev)
 - **Website** - [semior.dev](https://semior.dev)
 - **Github** - [Semior001](https://github.com/semior001)
 - **LinkedIn** - [Yelshat Duskaliyev](https://www.linkedin.com/in/yelshat-duskaliev-181813139/)
