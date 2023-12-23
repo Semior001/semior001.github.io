@@ -67,7 +67,7 @@
 
 ## Education
 - **[Innopolis University](https://university.innopolis.ru)** <br>
-    2019-present <br>
+    2019-2023 <br>
     B.Sc in Computer Science
 
 - **[Kazakh-British Technical University](https://www.kbtu.kz/)** <br>
