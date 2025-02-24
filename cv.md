@@ -17,19 +17,39 @@
 ---
 
 ## Professional Experience
-- **Go developer** <br>
+- **Lead Go Developer** <br>
     ITKey • Full time <br>
-    09/2021 - present <br>
-    Russia, Innopolis
+    08/2023 - present <br>
+    Almaty, Kazakhstan
 
-    > Backend developer of cloud projects.
+    > Leading the development of internal projects in a cloud provider company.
+    >
+    > Building new services, maintaining existing codebases, performing some DevOps tasks.
+
+- **Senior Go Developer** <br>
+    ITKey • Full time <br>
+    01/2023 - 08/2023 <br>
+    Almaty, Kazakhstan
+
+- **Go Developer** <br>
+    ITKey • Full time <br>
+    09/2021 - 01/2023 <br>
+    Russia, Innopolis / Almaty, Kazakhstan
+
+    > Backend developer of internal projects in a cloud provider company.
+    >
+    > Worked on existing systems, developed new features, and maintained the existing codebase.
+    >
+    > Go, gRPC, Kafka, Docker, Kubernetes, PostgreSQL, etc.
 
 - **Go developer** <br>
-	Marketplace Technologies • Full time <br>
+	  Marketplace Technologies • Full time <br>
     02/2021 - 09/2021 <br>
     Russia, Innopolis
 
     > Backend developer of internal ERP project.
+    >
+    > Go, Kafka, Kubernetes, PostgreSQL
 
 - **Junior developer** <br>
     Technodom Operator JSC • Full time <br>
@@ -37,12 +57,14 @@
     Almaty, Kazakhstan
 
     > Worked as a full-stack developer, developed and supported several projects for internal usage.
+    >
+    > Java, Spring, Laravel, OctoberCMS, ZeroMQ, SOAP.
 
 ## Projects
 - **HR-Bot scheduling service** • Go developer <br>
     06/2020 - 06/2022
-    
-    > Worked on an integration with calendar services, and everything related to calendars (e.g. building an algorithm and API interface to find available 
+
+    > Worked on an integration with calendar services, and everything related to calendars (e.g. building an algorithm and API interface to find available
     time slots in a specified user calendar). IMAP, SMTP, iCal, and other fancy stuff.
     <br>
     Project was converted into the [trn](https://github.com/cappuccinotm/trn) - library for dealing with time intervals.
@@ -62,7 +84,7 @@
 - **Feedback Collector Android application + Website for analytics for Technodom Operator JSC** • Android developer, Backend Web-developer <br>
     07/2018 - 08/2018
 
-    > The android application to collect the feedback from the customers, and the laravel-based website to process the aggregated data, 
+    > The android application to collect the feedback from the customers, and the laravel-based website to process the aggregated data,
     visualize the fancy graphs and control all negative feedbacks to be processed.
 
 ## Education
@@ -79,11 +101,13 @@
 English (Upper-intermediate, IELTS overall 6.0), Russian (native)
 
 ## About me
-High result achiever. I’m interested in new technologies. I like to read professional literature. I’ve participated in a lot of programming competitions. 
+I am a high achiever with a strong interest in new technologies. I enjoy reading professional literature and have participated in numerous programming competitions. I always strive to apply my knowledge and skills in the best possible way.
 Also, I always try to find the best application for my knowledge and my skills.
 
+Currently, I own a small homelab where I experiment with some technologies such as Tailscale, Proxmox, and developing my own solutions for DNS and DHCP, along with other projects to improve my life.
+
 ## Key skills
-I’ve worked with the next technologies, APIs and web-frameworks: RabbitMQ, SOAP, Docker, Spring, Java Persistence, Laravel, OctoberCMS, ZeroMQ, and WAMP protocol.
+I've extensively worked with a lot of technologies, for DevOps and programming purposes.
 
 ## Interests
-Reading fantastic literature, science literature such as psychology. Sometimes, I may play computer games, develop small projects to improve my own life.
+I enjoy reading both fantastic and scientific literature. I also occasionally play computer games and develop small projects to enhance my life.
