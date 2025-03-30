@@ -22,25 +22,30 @@
     08/2023 - present <br>
     Almaty, Kazakhstan
 
-    > Leading the development of internal projects in a cloud provider company.
-    >
-    > Building new services, maintaining existing codebases, performing some DevOps tasks.
+    > - Led architecture design and implementation of scalable microservices using Go;
+    > - Designed and implemented Helm charts for Kubernetes deployments, streamlining the CI/CD pipeline for multiple projects;
+    > - Architected and developed an RBAC-based API gateway, enhancing security and access control across services;
+    > - Built a custom code generator for Temporal workflows, enabling an RPC-like development experience and improving developer productivity;
+    > - Managed a small team of developers, providing technical guidance and ensuring project deliverables met quality standards.
 
 - **Senior Go Developer** <br>
     ITKey • Full time <br>
     01/2023 - 08/2023 <br>
     Almaty, Kazakhstan
 
+    > - Designed and implemented RESTful and gRPC APIs for internal services;
+    > - Developed event-driven systems using Kafka for reliable message processing;
+    > - Wrote comprehensive unit and integration tests to ensure code reliability;
+    > - Designed and implemented scalable microservices architecture for critical internal systems;
+    > - Participated in on-call rotations for production support.
+
 - **Go Developer** <br>
     ITKey • Full time <br>
     09/2021 - 01/2023 <br>
     Russia, Innopolis / Almaty, Kazakhstan
 
-    > Backend developer of internal projects in a cloud provider company.
-    >
-    > Worked on existing systems, developed new features, and maintained the existing codebase.
-    >
-    > Go, gRPC, Kafka, Docker, Kubernetes, PostgreSQL, etc.
+    > - Worked on existing systems, developed new features, and maintained the existing codebase.
+    > Stack: Go, gRPC, Kafka, Docker, Kubernetes, PostgreSQL, Temporal, etc.
 
 - **Go developer** <br>
 	  Marketplace Technologies • Full time <br>
@@ -111,3 +116,10 @@ I've extensively worked with a lot of technologies, for DevOps and programming p
 
 ## Interests
 I enjoy reading both fantastic and scientific literature. I also occasionally play computer games and develop small projects to enhance my life.
+
+## Pet-projects
+You're welcome to check out my [github](https://github.com/Semior001) account, where I store some of my pet-projects. <br/>
+
+Worth mentioning: <br/>
+- [gRoxy](https://github.com/Semior001/groxy) - a simple mocking server with reverse-proxy capabilities for gRPC, written in Go. Benchmarks show the better performance on small set of requests compared to [gripmock](https://github.com/tokopedia/gripmock), [wiremock](https://wiremock.org). Has a simple YAML interface for configuration.<br/>
+- [releaseit](https://github.com/Semior001/releaseit) - release notes builder, have used it in several projects to generate release notes for the project, based on pull requests and commits.
