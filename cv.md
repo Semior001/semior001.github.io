@@ -17,9 +17,14 @@
 ---
 
 ## Professional Experience
+- **Senior Go Developer** <br>
+    EPAM • Full time <br>
+    01/2026 - present <br>
+    Almaty, Kazakhstan
+
 - **Lead Go Developer** <br>
     ITKey • Full time <br>
-    08/2023 - present <br>
+    08/2023 - 01/2026 <br>
     Almaty, Kazakhstan
 
     > - Led architecture design and implementation of scalable microservices using Go;
