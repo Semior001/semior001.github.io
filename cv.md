@@ -17,7 +17,7 @@
 ---
 
 ## Professional Experience
-- **Senior Go Developer** <br>
+- **Senior Software Engineer** <br>
     EPAM • Full time <br>
     01/2026 - present <br>
     Almaty, Kazakhstan
